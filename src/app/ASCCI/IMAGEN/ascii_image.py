@@ -63,3 +63,4 @@ def ascii_to_image(
         draw.text((0, y), line, font=font, fill=fg_color)
         y += line_h
     return img
+
