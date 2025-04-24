@@ -1,11 +1,10 @@
 # ascii_video.py
-
 import os
 import numpy as np
 from PIL import Image
 from moviepy.video.io.VideoFileClip import VideoFileClip
 from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
-from src.ascii_image import image_to_ascii_from_pil, ascii_to_image
+from app.ASCCI.IMAGEN.ascii_image import image_to_ascii_from_pil,ascii_to_image
 
 def video_to_ascii(
     video_path: str,
