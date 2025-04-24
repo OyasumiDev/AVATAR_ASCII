@@ -2,6 +2,7 @@
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+from app.imports.import_archives import import_files
 
 ASCII_CHARS = ['@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.']
 
