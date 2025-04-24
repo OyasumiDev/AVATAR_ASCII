@@ -1,0 +1,13 @@
+Eh cabron, necesito que primero cambies las funcionalidades a crear clases que usen como metodos los que ya se tienen
+para que te des una idea de la modularizacion espero que haya una clase ASCII_IMAGE Y ASCII_VIDEO que tengan los metodos necesarios, al no hacer algo mas aparte de eso no necesitaremos un meotodo contructor
+importa correctamente en el main las funciones necesarias y agrega los __init__ en las carpetas necesarias 
+
+# Nota
+No agregue los __init__ 
+necesito una carpeta para el modulo de foro y una carpeta para el modulo de video, apartir de ahora podemos proceder a las funcionalidades necesarias 
+
+- Crear un avatar que pueda interactuar con el usuario 
+- Ese avatar tiene que estar en una ventana 
+- El avatar necesitara usar las funcionalidades necesarias para que se pueda ver en el formato ASCII, tu tendras a tu consideracion si quieres que en
+ tiempo real se mantenga el formato o si exportaras y en la ventana se veran los diferentes mensajes. 
+ -- Es todo 
