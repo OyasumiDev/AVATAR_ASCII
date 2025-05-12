@@ -2,6 +2,7 @@
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+from app.imports.import_archives import import_files
 
 ASCII_CHARS = ['@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.']
 
@@ -63,3 +64,4 @@ def ascii_to_image(
         draw.text((0, y), line, font=font, fill=fg_color)
         y += line_h
     return img
+

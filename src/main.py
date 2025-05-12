@@ -1,8 +1,8 @@
 # main.py
 import tkinter as tk
 from tkinter import filedialog
-from src.ascii_image import image_to_ascii, ascii_to_image
-from src.ascii_video import video_to_ascii
+from app.ASCCI.IMAGEN.ascii_image import image_to_ascii,ascii_to_image
+from app.ASCCI.VIDEO.ascii_video import video_to_ascii
 
 def main():
     root = tk.Tk()
